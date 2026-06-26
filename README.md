@@ -27,7 +27,7 @@
 ### Instalacion de dependencias
 Es recomendable ejecutar un entorno virtual con los comandos:
     python -m venv env
-    env/Scripts/acrivate.bat --> Para windows
+    source env/Scripts/activate --> Para windows
     env/bin/acrivate.bat --> Para Mac/Linux
 
 Dependencias recomendadas:
@@ -36,3 +36,4 @@ Dependencias recomendadas:
 Dependencias obligatorias: 
     pip install kagglehub==1.0.2
     pip install pandas==3.0.3
+    pip install pytest==9.1.1
