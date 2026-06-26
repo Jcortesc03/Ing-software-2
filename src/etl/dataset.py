@@ -6,7 +6,9 @@ from pathlib import Path
 cache_path = Path(kagglehub.dataset_download("shivamparab/amazon-electronics-reviews"))
 
 # Carpeta destino dentro del proyecto
-project_path = Path("./data/raw")
+ROOT = Path(__file__).resolve().parents[2]
+
+project_path = ROOT / "data" / "raw"
     
 # Crear la carpeta si no existe
 project_path.mkdir(parents=True, exist_ok=True)
