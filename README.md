@@ -19,7 +19,7 @@
 
 
 ## Esquema preliminar de bloques ETL
-![Imagen del esquema de bloques ETL](./images/imagen_ETL.jpeg)
+![Imagen del esquema de bloques ETL](./docs/arquitectura.jpeg)
 
 ## Dataset a analizar: [Aqui](https://www.kaggle.com/datasets/shivamparab/amazon-electronics-reviews/data)
 
@@ -35,3 +35,4 @@ Dependencias recomendadas:
 
 Dependencias obligatorias: 
     pip install kagglehub==1.0.2
+    pip install pandas==3.0.3
